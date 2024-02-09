@@ -1,4 +1,5 @@
 const Usuario = require('../models/usuario');
+const Mascota = require('../models/mascota')
 const Role = require('../models/role');
 
 const existenteEmail = async (correo = '') => {
@@ -14,6 +15,12 @@ const existeUsuarioById = async ( id = '') => {
         throw new Error(`El usuario con el ${ id } no existe`);
     }
 }
+const existeMascotaById = async ( id = '') => {
+    const existeMascota = await Mascota.findOne({id});
+    if(existeMascota){
+        throw new Error(`La mascota con el ${ id } no existe`);
+    }
+}
 
 const esRolValido = async (role='') => {
     const existeRol = await Role.findOne({role});
@@ -26,5 +33,6 @@ const esRolValido = async (role='') => {
 module.exports = {
     existenteEmail,
     existeUsuarioById,
-    esRolValido
+    esRolValido,
+    existeMascotaById
 }
