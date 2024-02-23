@@ -39,7 +39,11 @@ router.post(
     [
         check("nombre", "El nombre es obligatorio").not().isEmpty(),
         check("raza", "La raza es obligatoria"),
+<<<<<<< HEAD
         check("edad","La edad es obligatoria").isLength(),
+=======
+        check("edad","La edad es obligatoria").isLength({min: 2,}),
+>>>>>>> f19f6a4f34532ab67666d9dab2e3105771132d58
         check("sexo", "el sexo debe ser obligatorio"),
         validarCampos,
     ],mascotaPost);

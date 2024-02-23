@@ -1,44 +1,73 @@
 {
     "client": "Thunder Client",
     "collectionName": "Mascotas",
+<<<<<<< HEAD
     "dateExported": "2024-02-23T13:54:17.319Z",
+=======
+    "dateExported": "2024-02-09T17:54:59.152Z",
+>>>>>>> f19f6a4f34532ab67666d9dab2e3105771132d58
     "version": "1.1",
     "folders": [],
     "requests": [
         {
+<<<<<<< HEAD
             "_id": "452d80ff-c09a-4b9b-906d-febe05b43b5c",
             "colId": "176bb630-57fa-4c58-b03f-6f48acff8ca6",
+=======
+            "_id": "d6f04d90-59cc-4583-96ba-bb4c3e264f33",
+            "colId": "c607718c-e6a0-4436-9db5-4f93811bebee",
+>>>>>>> f19f6a4f34532ab67666d9dab2e3105771132d58
             "containerId": "",
             "name": "mascotaPost",
             "url": "http://localhost:3000/api/mascotas",
             "method": "POST",
             "sortNum": 10000,
+<<<<<<< HEAD
             "created": "2024-02-23T13:48:25.711Z",
             "modified": "2024-02-23T13:51:26.465Z",
+=======
+            "created": "2024-02-09T17:03:41.647Z",
+            "modified": "2024-02-09T17:50:56.991Z",
+>>>>>>> f19f6a4f34532ab67666d9dab2e3105771132d58
             "headers": [],
             "params": [],
             "body": {
                 "type": "json",
+<<<<<<< HEAD
                 "raw": "{\n  \"nombre\":\"jose\",\n  \"raza\": \"chihuahua\",\n  \"edad\": \"2\",\n  \"sexo\": \"macho\"\n}",
+=======
+                "raw": "{\n  \"nombre\":\"Elmer\",\n  \"raza\": \"chihuahua\",\n  \"edad\": \"20\",\n  \"sexo\": \"hembra\"\n}",
+>>>>>>> f19f6a4f34532ab67666d9dab2e3105771132d58
                 "form": []
             },
             "tests": []
         },
         {
+<<<<<<< HEAD
             "_id": "21825a1b-489f-470f-abf9-ede54008cd1d",
             "colId": "176bb630-57fa-4c58-b03f-6f48acff8ca6",
+=======
+            "_id": "28073b0e-6d1b-4df8-8ef9-1c16e6ff5da8",
+            "colId": "c607718c-e6a0-4436-9db5-4f93811bebee",
+>>>>>>> f19f6a4f34532ab67666d9dab2e3105771132d58
             "containerId": "",
             "name": "mascotaGet",
             "url": "http://localhost:3000/api/mascotas",
             "method": "GET",
             "sortNum": 50000,
+<<<<<<< HEAD
             "created": "2024-02-23T13:48:25.712Z",
             "modified": "2024-02-23T13:48:25.712Z",
+=======
+            "created": "2024-02-09T17:48:42.582Z",
+            "modified": "2024-02-09T17:49:25.644Z",
+>>>>>>> f19f6a4f34532ab67666d9dab2e3105771132d58
             "headers": [],
             "params": [],
             "tests": []
         },
         {
+<<<<<<< HEAD
             "_id": "065a9220-7660-4e8d-9c83-9509d08a7d7a",
             "colId": "176bb630-57fa-4c58-b03f-6f48acff8ca6",
             "containerId": "",
@@ -48,11 +77,23 @@
             "sortNum": 60000,
             "created": "2024-02-23T13:48:25.713Z",
             "modified": "2024-02-23T13:52:03.943Z",
+=======
+            "_id": "ebb85eaa-c056-448c-888a-1aca11f743b3",
+            "colId": "c607718c-e6a0-4436-9db5-4f93811bebee",
+            "containerId": "",
+            "name": "getMascotaByID",
+            "url": "http://localhost:3000/api/mascotas/65c66600f9c411d2af873fce",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-02-09T17:49:51.335Z",
+            "modified": "2024-02-09T17:51:26.372Z",
+>>>>>>> f19f6a4f34532ab67666d9dab2e3105771132d58
             "headers": [],
             "params": [],
             "tests": []
         },
         {
+<<<<<<< HEAD
             "_id": "51a6a2bc-df6d-4113-be0c-c17a06ecf346",
             "colId": "176bb630-57fa-4c58-b03f-6f48acff8ca6",
             "containerId": "",
@@ -62,16 +103,32 @@
             "sortNum": 70000,
             "created": "2024-02-23T13:48:25.714Z",
             "modified": "2024-02-23T13:52:17.622Z",
+=======
+            "_id": "22366438-3a66-4918-bf93-712de7afca12",
+            "colId": "c607718c-e6a0-4436-9db5-4f93811bebee",
+            "containerId": "",
+            "name": "mascotaPut",
+            "url": "http://localhost:3000/api/mascotas/65c66600f9c411d2af873fce",
+            "method": "PUT",
+            "sortNum": 70000,
+            "created": "2024-02-09T17:51:54.908Z",
+            "modified": "2024-02-09T17:52:57.375Z",
+>>>>>>> f19f6a4f34532ab67666d9dab2e3105771132d58
             "headers": [],
             "params": [],
             "body": {
                 "type": "json",
+<<<<<<< HEAD
                 "raw": "{\n  \"nombre\":\"animal2\",\n  \"edad\": 1\n  \n}",
+=======
+                "raw": "{\n  \"nombre\":\"animal2\"\n  \n}",
+>>>>>>> f19f6a4f34532ab67666d9dab2e3105771132d58
                 "form": []
             },
             "tests": []
         },
         {
+<<<<<<< HEAD
             "_id": "326b01d0-ecfb-4e4a-a24c-c22d804461b4",
             "colId": "176bb630-57fa-4c58-b03f-6f48acff8ca6",
             "containerId": "",
@@ -81,6 +138,17 @@
             "sortNum": 80000,
             "created": "2024-02-23T13:48:25.715Z",
             "modified": "2024-02-23T13:52:24.903Z",
+=======
+            "_id": "98bc5e06-716c-4537-9293-b5667e265a4b",
+            "colId": "c607718c-e6a0-4436-9db5-4f93811bebee",
+            "containerId": "",
+            "name": "mascotaDelete",
+            "url": "http://localhost:3000/api/mascotas/65c66600f9c411d2af873fce",
+            "method": "DELETE",
+            "sortNum": 80000,
+            "created": "2024-02-09T17:53:12.956Z",
+            "modified": "2024-02-09T17:54:10.897Z",
+>>>>>>> f19f6a4f34532ab67666d9dab2e3105771132d58
             "headers": [],
             "params": [],
             "tests": []
